@@ -1,8 +1,9 @@
 {
   "name": "test",
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "app",
-  "features": {
-    "ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
-  }
+ // "dockerComposeFile": "docker-compose.yml",
+  "image": "ubuntu:latest",
+  //"service": "app",
+  //"features": {
+  //  "ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
+  //}
 }
